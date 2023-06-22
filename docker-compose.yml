@@ -1,0 +1,12 @@
+version: "3.4"
+
+services:
+  crawler:
+    build: ./src
+    container_name: crawler
+    environment:
+      - DI_PROFILE_ACTIVES=inmemory
+      - LOG_LEVEL=DEBUG
+    volumes:
+      - ./src:/app
+#    command: ["python", "start_crawling.py"]

@@ -1,0 +1,16 @@
+# DI(依存性注入)
+injector==0.20.1
+di4injector==0.0.1
+# HTTPライブラリ
+requests==2.27.1
+selenium==4.9.0
+webdriver-manager==3.8.6
+# BeautifulSoup
+beautifulsoup4==4.10.0
+lxml==4.8.0
+# リトライ用ライブラリ
+retrying==1.3.3
+# 多重起動の防止用ライブラリ
+pid==3.0.4
+# ログ出力
+slf4py==0.0.2
